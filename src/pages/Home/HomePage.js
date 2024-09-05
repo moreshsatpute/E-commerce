@@ -1,5 +1,6 @@
 import { Hero } from "./components/Hero"
 import { FeaturedProducts } from "./components/FeaturedProducts"
+import { Testimonials } from "./components/Testimonials"
 
 
 export const HomePage = () => {
@@ -7,6 +8,7 @@ export const HomePage = () => {
     <main>
       <Hero/>
       <FeaturedProducts/>
+      <Testimonials/>
       
     </main>
   );
