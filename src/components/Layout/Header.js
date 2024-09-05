@@ -1,13 +1,15 @@
 import { Link } from "react-router-dom";
+import Logo from "../../assets/logo.jpg"
 
 export const Header = () => {
   return (
-    <nav className="border-gray-200 bg-mango-yellow dark:bg-mango-yellow-dark">
+    
+    <nav className="border-gray-200  bg-mango-yellow dark:bg-mango-yellow-dark">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
-          <img src="https://flowbite.com/docs/images/logo.svg" className="h-8" alt="Flowbite Logo" />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-            Flowbitea
+          <img src={Logo} className="h-8" alt="Flowbite Logo" />
+          <span className="self-center hover:bg-gray-100 text-2xl font-semibold  whitespace-nowrap dark:text-white">
+            MORESH
           </span>
         </Link>
         <button
