@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
+import img from "../../assets/img.jpg"
 
 export const ProductCard = () => {
   return (
     <div className="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
       <Link to="/">
         <img
-          className="p-8 rounded-t-lg"
-          src="/docs/images/products/apple-watch.png"
+          className="p-4 rounded-lg"
+          src={img}
           alt="product"
         />
       </Link>
